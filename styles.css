@@ -30,3 +30,22 @@ input[type="text"] {
 input[type="text"]:focus {
     width: 100%;
 }
+
+.searchTitle {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.searchResult {
+    background-color: rgb(153, 225, 155);
+    color: rgb(18, 17, 17);
+    height: 60px;
+    padding: 10px;
+    margin: 2px;
+}
+
+.searchResult:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
